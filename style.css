@@ -121,3 +121,41 @@ main section {
 section p.description {
   text-align: center;
 }
+
+/* section.featured-flower{
+
+} */
+
+.card-container {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  margin-top: 48px;
+}
+
+.card {
+  width: 33.33%;
+}
+
+.card-bg {
+  border-radius: 50% 50% 0 0;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-top: 60px;
+  justify-content: center;
+  height: 390px;
+}
+
+.card-bg img {
+  width: 60%;
+}
+.card h4 {
+  color: #272727;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35px;
+  text-decoration-line: underline;
+  margin-top: 32px;
+}
