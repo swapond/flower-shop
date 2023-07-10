@@ -17,6 +17,9 @@ h1,
 h3 {
   color: #272727;
   font-weight: 900;
+}
+
+h1 {
   letter-spacing: -2px;
 }
 
@@ -102,16 +105,27 @@ p.description {
 
 .banner .container {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: flex-end;
+}
+
+.banner-text {
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .banner-text p {
   max-width: 636px;
 }
 
+.banner-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
 .banner-img img {
-  max-width: 450px;
+  max-width: 580px;
 }
 
 main section {
@@ -158,4 +172,32 @@ section p.description {
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 32px;
+}
+
+section.hot-deals {
+  background-color: rgba(229, 84, 115, 0.05);
+  padding: 100px 0;
+}
+
+.hot-deals .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.deals-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.deals-text .description {
+  max-width: 594px;
+}
+
+.deals-text .btn-primary {
+  align-self: center;
+}
+
+.deals-img img {
+  width: 318px;
 }
