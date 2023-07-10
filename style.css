@@ -1,0 +1,123 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  /* padding: 0 20px; */
+}
+
+/* Prepferd Styles for the site */
+
+h1,
+h3 {
+  color: #272727;
+  font-weight: 900;
+  letter-spacing: -2px;
+}
+
+h1 {
+  font-size: 75px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.primary-color {
+  color: #e55473;
+}
+
+.btn-primary {
+  background: #e55473;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  padding: 15px 20px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  opacity: 0.92;
+}
+
+h3.title {
+  color: #272727;
+  text-align: center;
+}
+
+p.description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  line-height: 30px;
+  margin: 32px 0;
+}
+
+.header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.045);
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.cart {
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 15px;
+}
+
+.container,
+.fixed-width {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+/* Banner */
+.banner {
+  background-color: rgba(229, 84, 115, 0.1);
+  padding-top: 30px;
+}
+
+.banner .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.banner-text p {
+  max-width: 636px;
+}
+
+.banner-img img {
+  max-width: 450px;
+}
+
+main section {
+  margin-top: 178px;
+}
+
+section p.description {
+  text-align: center;
+}
