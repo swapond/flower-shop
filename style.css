@@ -175,6 +175,11 @@ section.whytobuy h4 {
   padding: 30px;
   border-radius: 5px;
   max-width: 250px;
+  cursor: pointer;
+}
+
+.info:hover {
+  transform: scale(1.1);
 }
 
 .card-container {
@@ -250,6 +255,15 @@ section.hot-deals {
 
 .img-container img {
   max-width: 100%;
+}
+
+.follow {
+  display: flex;
+  margin-top: 32px;
+  justify-content: center;
+}
+.follow .btn-primary {
+  font-size: 16px;
 }
 
 section.subscribe {
